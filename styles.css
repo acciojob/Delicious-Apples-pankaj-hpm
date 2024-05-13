@@ -1,1 +1,41 @@
 /* your code here */
+* {
+	background-color:gren;
+}
+.controls{
+	width:400px;
+	margin:20px
+}
+#right{
+	float:right;
+}
+.photo-main{
+	width:100px;
+	height:300px;
+}
+.photo-album ul{
+	background-color:white;
+		list-style-type:none;
+padding:5px;
+	
+}
+
+.photo-album{
+	padding:5px;
+	margin:260px;
+	margin-left:5px;
+	list-style-type:none;
+		transform:rotate(90deg);
+
+	background-color:white;
+	border:solid 1px black;
+	display:flex;
+	flex-direction:row;
+}
+
+.photo-container{
+	display:flex;
+	flex-direction:row;
+		list-style-type:none;
+
+}
