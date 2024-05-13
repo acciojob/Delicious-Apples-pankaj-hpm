@@ -11,12 +11,12 @@
 }
 .photo-main{
 	width:100px;
-	height:300px;
+	height:33px;
 }
 .photo-album ul{
 	background-color:white;
 		list-style-type:none;
-padding:5px;
+padding:1px;
 	
 }
 
@@ -37,5 +37,20 @@ padding:5px;
 	display:flex;
 	flex-direction:row;
 		list-style-type:none;
+
+}
+.title{
+	margin-top:2px;
+}
+
+.price{
+	color:red;
+	
+}
+.apple{
+			transform:rotate(90deg);
+	type:none;
+	margin:100px;
+	
 
 }
